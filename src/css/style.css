@@ -9,3 +9,44 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: your-theme-name
 */
+/* Общие стили меню */
+/* Основной контейнер меню */
+.primary-menu-container {
+    background-color: #f0f0f0; /* Цвет фона */
+    padding: 10px;
+    border: 1px solid #ddd; /* Граница вокруг меню */
+}
+
+/* Список меню */
+.primary-menu {
+    list-style: none; /* Убрать точки или маркеры */
+    display: flex; /* Расположить элементы в строку */
+    gap: 20px; /* Расстояние между пунктами */
+    margin: 0;
+    padding: 0;
+}
+
+/* Пункты меню */
+.primary-menu li {
+    display: inline-block; /* Элементы меню в одну строку */
+}
+
+/* Ссылки в меню */
+.primary-menu a {
+    color: #333; /* Цвет текста */
+    text-decoration: none; /* Убрать подчеркивание */
+    padding: 10px 15px; /* Добавить кликабельную область */
+    border-radius: 5px; /* Скругленные углы */
+    transition: all 0.3s ease; /* Плавный эффект */
+}
+
+/* Ховер-эффект */
+.primary-menu a:hover {
+    background-color: #0073aa; /* Синий фон при наведении */
+    color: #fff; /* Белый текст при наведении */
+}
+
+html, body {
+    margin: 0 !important; /* Убираем все внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
