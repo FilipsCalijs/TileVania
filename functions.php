@@ -44,3 +44,9 @@ function enqueue_custom_theme_styles() {
     );
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_theme_styles');
+
+
+function enqueue_custom_js() {
+    wp_enqueue_script('custom-live-preview', get_template_directory_uri() . '/js/custom-live-preview.js', array('jquery', 'customize-preview'), null, true);
+}
+add_action('customize_preview_init', 'enqueue_custom_js');
