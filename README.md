@@ -1,5 +1,4 @@
 # Custom WordPress Theme Project
-тест
 ## Project Overview
 
 This project aims to develop a custom WordPress theme to combine and apply knowledge of HTML, CSS, JavaScript, and WordPress. The goal is to create a functional and aesthetically pleasing theme that will allow for deeper understanding and practical experience in front-end and back-end web development.
